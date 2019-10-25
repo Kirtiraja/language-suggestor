@@ -18,15 +18,13 @@ $(document).ready(function() {
     } else if (cute2 === "cute2") {
     $(".pythoninfo").show();
       $(".rubyinfo, .jsinfo").hide();
-
     } else  if (cute3 === "cute3") {
     $(".jsinfo").show();
     $(".pythoninfo, .goinfo").hide();
-}
-    else (cute4 === "cute4")
+    } else if (cute4 === "cute4") {
     $(".goinfo").show();
-    $(".pythoninfo, .rubyinfo .jsinfo").hide();
-  
+    $(".pythoninfo, .rubyinfo, .jsinfo").hide();
+  }
 
 
 });
