@@ -1,0 +1,13 @@
+
+
+
+
+.pythoninfo, .rubyinfo, .jsinfo, .rustinfo, .swiftinfo, .goinfo {
+  display: grid;
+}
+
+
+.jumbotron {
+  text-align: center;
+  color: blue;
+}
