@@ -5,6 +5,7 @@
 $(document).ready(function() {
   $("form#ranking").submit(function(event) {
     event.preventDefault();
+
     var animal = parseInt($("input:radio[name=animal]:checked").val());
     var color = parseInt($("input:radio[name=color]:checked").val());
     var fruit = parseInt($("input:radio[name=fruit]:checked").val());
@@ -13,12 +14,11 @@ $(document).ready(function() {
     if (animal + color + fruit <= 3) {
       $(".rubyinfo").show();
       $(".pythoninfo, .jsinfo, .goinfo").hide();
-      // $("button").click(function()
-      // $("p#rubytext").show();
+      // $("p#rubytext").click("#rubyButton")
     }
     else if (animal + color + fruit <= 6) {
     $(".pythoninfo").show();
-      $("#rubytext, .rubyinfo, .jsinfo").hide();
+      $(".rubyinfo, .jsinfo").hide();
     }
     else  {
     $(".jsinfo").show();
@@ -31,4 +31,6 @@ $(document).ready(function() {
 
 });
 });
-// });
+    function rubyButton() {
+      $("p#rubyText").show();
+    }
