@@ -10,7 +10,7 @@ _This website asks the user a few survey questions then once submitted gives inf
 
 ## Setup/Installation Requirements
 
-* _Open file with a web browser of your choice such as Chrome_
+* Click <a href="https://kirtiraja.github.io/language-suggestor/"> HERE </a>to see website.
 
 
 
