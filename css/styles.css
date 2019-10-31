@@ -7,9 +7,13 @@
 }
 #rubyText, #pythonText, #jsText, #rustText, #swiftText, #goText {
   display:none;
+   background-color: lightblue;
 }
 
 .jumbotron {
   text-align: center;
-  color: blue;
+  background: linear-gradient(to top, #3399ff 0%, #33cc33 100%);
+}
+body {
+    background: linear-gradient(to top, #ffcc66 0%, #ff5050 100%);
 }

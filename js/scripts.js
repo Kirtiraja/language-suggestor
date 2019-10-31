@@ -16,16 +16,18 @@ $(document).ready(function() {
       $(".pythoninfo, .jsinfo, .rustinfo, .swiftinfo,.goinfo, #pythonText, #jsText, #rustText, #swiftText, #goText").hide();
 
     }
-    else if (animal + color + fruit <= 6) {
+    else if (animal + color + fruit <= 5) {
     $(".pythoninfo").show();
       $(".rubyinfo, .jsinfo,  .rustinfo, .swiftinfo, .goinfo, #rubyText,  #jsText, #rustText, #swiftText, #goText").hide();
     }
-    else  {
+    else  if (animal + color + fruit <= 7) {
     $(".jsinfo").show();
-    $(".pythoninfo, .goinfo").hide();
-
-  }
-
+    $(".rubyinfo, .pythoninfo, .rustinfo, .swiftinfo, .goinfo, #rubyText, #pythonText, #rustText, #swiftText, #goText").hide();
+    }
+    else if (animal + color + fruit <= 9) {
+    $(".rustinfo").show();
+      $(".rubyinfo, .pythoninfo, .jsinfo, .swiftinfo, .goinfo, #rubyText, #pythonText, #jsText, #swiftText, #goText").hide();
+    }
 
 });
 });
@@ -37,4 +39,7 @@ $(document).ready(function() {
     }
     function jsButton() {
       $("p#jsText").toggle();
+    }
+    function rustButton() {
+      $("p#rustText").toggle();
     }
