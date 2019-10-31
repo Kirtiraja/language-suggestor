@@ -13,24 +13,28 @@ $(document).ready(function() {
 
     if (animal + color + fruit <= 3) {
       $(".rubyinfo").show();
-      $(".pythoninfo, .jsinfo, .goinfo").hide();
-      // $("p#rubytext").click("#rubyButton")
+      $(".pythoninfo, .jsinfo, .rustinfo, .swiftinfo,.goinfo, #pythonText, #jsText, #rustText, #swiftText, #goText").hide();
+
     }
     else if (animal + color + fruit <= 6) {
     $(".pythoninfo").show();
-      $(".rubyinfo, .jsinfo").hide();
+      $(".rubyinfo, .jsinfo,  .rustinfo, .swiftinfo, .goinfo, #rubyText,  #jsText, #rustText, #swiftText, #goText").hide();
     }
     else  {
     $(".jsinfo").show();
     $(".pythoninfo, .goinfo").hide();
-    // } else if (cute4 === "cute4") {
-    // $(".goinfo").show();
-    // $(".pythoninfo, .rubyinfo, .jsinfo").hide();
+
   }
 
 
 });
 });
     function rubyButton() {
-      $("p#rubyText").show();
+      $("p#rubyText").toggle();
+    }
+    function pythonButton() {
+      $("p#pythonText").toggle();
+    }
+    function jsButton() {
+      $("p#jsText").toggle();
     }

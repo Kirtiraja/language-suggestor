@@ -5,7 +5,7 @@
 .pythoninfo, .rubyinfo, .jsinfo, .rustinfo, .swiftinfo, .goinfo {
   display: none;
 }
-#rubyText {
+#rubyText, #pythonText, #jsText, #rustText, #swiftText, #goText {
   display:none;
 }
 
