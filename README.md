@@ -6,7 +6,7 @@
 
 ## Description
 
-_This website asks the user a few survey questions then once submitted gives information on a coding language.This simple website was created using HTML, Bootstrap and JQuery_
+_This website asks the user a few survey questions then once submitted gives a button when clicked shows information on a coding language.This simple website was created using HTML, Bootstrap, jQuery, and good 'ol vanilla JS. 
 
 ## Setup/Installation Requirements
 
@@ -17,18 +17,18 @@ _This website asks the user a few survey questions then once submitted gives inf
 
 ## Known Bugs
 
-_Buttons in language headers don't currently toggle/show/hide sub-text yet._
+_none_
 
 ## Support and contact details
 
-_Feel free to let me know why ""#rubytext" doesn't show when clicked_
+_Feel free to contact me, Kirti, at kirtiraja@gmail.com
 
 ## Technologies Used
 
-_{Tell me about the languages and tools you used to create this app. Assume that I know you probably used HTML and CSS. If you did something really cool using only HTML, point that out.}_
+_HTML, CSS, Bootstrap, jQuery, and vanilla JS_
 
 ### License
 
-*{Determine the license under which this application can be used.  See below for more details on licensing.}*
+* *
 
-Copyright (c) 2016 **_{List of contributors or company name}_**
+Copyright (c) 2019 **_Kirtiraja Zakheim_**
