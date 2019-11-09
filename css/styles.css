@@ -17,3 +17,7 @@
 body {
     background: linear-gradient(to top, #ffcc66 0%, #ff5050 100%);
 }
+img {
+  border-radius: 15%;
+  
+}
